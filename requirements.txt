@@ -1,0 +1,6 @@
+TTS
+soundfile
+numpy
+torch
+librosa
+
