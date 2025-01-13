@@ -1,0 +1,2 @@
+changed numpy version
+changed librosa version

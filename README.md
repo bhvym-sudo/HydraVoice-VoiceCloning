@@ -2,26 +2,29 @@
 
 Sidhaant's Voice Cloning Project
 
-{creating a virtual environment on desktop}
-open CMD
+## INSTALLATION
 
-IN CMD :- 
+`git clone https://github.com/Sidhaant0802/HydraVoice-VoiceCloning.git`
 
-cd path_to_directory (for creating the virtual environment)
+`cd HydraVoice-VoiceCloning`
 
-python -m venv voice_env
 
-then paste this and enter :- voice_env\Scripts\activate
+## Create python virtual environment
 
-then :-
+`python -m venv voice_env`
+### For VS code
+VS code will automatically recognize the venv, it will ask you if you want to use that, click yes.
 
-mkdir voice
-cd voice
+### For terminal
 
-pip install -r requirements.txt
+`voice_env\Scripts\activate`
 
-python voice.py 
+## Install required modules
 
-(and now enjoy the program)
+`pip install -r requirements.txt`
 
-{IF ANY MODULE MISSING JUST PIP INSTALL THEM INDIVIDUALLY}
+## Run the script
+
+`python voice.py`
+
+## Some examples are in 'tvoice' folder
